@@ -13,6 +13,9 @@ def my_square(y: int) -> int:
 
 
 def my_square2(x: int) -> int:
+    """
+    Uses the * infix operator to calculate square.
+    """
     return x * x
 
 
