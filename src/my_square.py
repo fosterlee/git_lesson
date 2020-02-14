@@ -1,16 +1,15 @@
 #!/usr/bin/env python
 
-def my_square(x: int) -> int:
+def my_square(z: int) -> int:
     """
     takes a value and returns the squared value.
     
     Uses the ** infix operator.
     
-    :param x: int
+    :param z: int
     :return: int
     """
-    return x ** 2
+    return z * z
 
 
-print(my_square(3))
-
+print(my_square(24))
